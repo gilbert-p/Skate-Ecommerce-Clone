@@ -1,0 +1,9 @@
+$primary-color: #00d3ff;
+$hover-link-color: #f956c9;
+$light-text: #c2c2c2;
+
+@mixin fit-image {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}

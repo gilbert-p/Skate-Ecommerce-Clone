@@ -1,0 +1,32 @@
+@use 'variables';
+
+.resize-container {
+  position: relative;
+  width: 100%;
+  margin-top: 110px;
+  margin-bottom: 40px;
+
+  .hero-slideshow-container {
+    position: relative;
+    width: 100%;
+
+    // background-color: red;
+
+    .slideshow-img-box {
+      @include variables.fit-image;
+    }
+  }
+}
+
+@media screen and (width: 768px) {
+  .resize-container {
+    resize: horizontal;
+    height: 100%;
+    overflow: hidden;
+    .hero-slideshow-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+}

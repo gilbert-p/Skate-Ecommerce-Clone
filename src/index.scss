@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+li,
+ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:link {
+  text-decoration: none;
+}
