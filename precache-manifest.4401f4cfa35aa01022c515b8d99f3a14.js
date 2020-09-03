@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe37fc083f8d91c9cae6c77bb64a9dac",
+    "revision": "42766b1a27087f4a6b61c9491279b218",
     "url": "/Skate-Ecommerce-Clone/index.html"
   },
   {
-    "revision": "34812391dc0debe664ea",
-    "url": "/Skate-Ecommerce-Clone/static/css/main.d1414a6c.chunk.css"
+    "revision": "bdf8e821392f575f16a3",
+    "url": "/Skate-Ecommerce-Clone/static/css/main.d937d472.chunk.css"
   },
   {
-    "revision": "992d6232df60a95803dd",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.610d7dcd.chunk.js"
+    "revision": "1bbeae1294df0c72ff61",
+    "url": "/Skate-Ecommerce-Clone/static/js/2.33c95baf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.610d7dcd.chunk.js.LICENSE.txt"
+    "url": "/Skate-Ecommerce-Clone/static/js/2.33c95baf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34812391dc0debe664ea",
-    "url": "/Skate-Ecommerce-Clone/static/js/main.a3649adb.chunk.js"
+    "revision": "bdf8e821392f575f16a3",
+    "url": "/Skate-Ecommerce-Clone/static/js/main.fe38dfef.chunk.js"
   },
   {
     "revision": "2987abf6428844ace7fb",
     "url": "/Skate-Ecommerce-Clone/static/js/runtime-main.7bd14fc0.js"
+  },
+  {
+    "revision": "727e1e06b3ed75ec4031b90541713e3a",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_5_m.727e1e06.webp"
   },
   {
     "revision": "e26532f2abdf4943bc544a3d66c3d027",
@@ -56,7 +60,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_plugs_skull_of_fame_3.565e188c.jpg"
   },
   {
-    "revision": "e20dbde62bd6235b5f43bfca05a05bb3",
-    "url": "/Skate-Ecommerce-Clone/static/media/slideshow_img_1.e20dbde6.jpg"
+    "revision": "a96fd893e04fa3465bed4f058469f74f",
+    "url": "/Skate-Ecommerce-Clone/static/media/w39_d3_one_offs_deck_anderson_large.a96fd893.webp"
+  },
+  {
+    "revision": "a8b474c5a09dfb80c792c182b94cf259",
+    "url": "/Skate-Ecommerce-Clone/static/media/w39_d3_one_offs_deck_anderson_mother_large.a8b474c5.webp"
+  },
+  {
+    "revision": "f59410830f76b6759628c67baa20ff53",
+    "url": "/Skate-Ecommerce-Clone/static/media/w39_d3_one_offs_deck_fernandez_large.f5941083.webp"
+  },
+  {
+    "revision": "5607bbef505b69a23bb653420993efc7",
+    "url": "/Skate-Ecommerce-Clone/static/media/w39_d3_one_offs_deck_perez_large.5607bbef.webp"
   }
 ]);
