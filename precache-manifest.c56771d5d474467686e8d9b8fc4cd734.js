@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e650daddc78349867fcb304a37264099",
+    "revision": "ab6ac1810e528fa8557c25fab295da87",
     "url": "/Skate-Ecommerce-Clone/index.html"
   },
   {
-    "revision": "a8e60760d4d779c14460",
-    "url": "/Skate-Ecommerce-Clone/static/css/main.55f03e0b.chunk.css"
+    "revision": "491aa2d7bca36f937e7a",
+    "url": "/Skate-Ecommerce-Clone/static/css/main.7b0961fd.chunk.css"
   },
   {
-    "revision": "1bbeae1294df0c72ff61",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.33c95baf.chunk.js"
+    "revision": "0733ef90fbd670b08a7e",
+    "url": "/Skate-Ecommerce-Clone/static/js/2.b9650df1.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.33c95baf.chunk.js.LICENSE.txt"
+    "url": "/Skate-Ecommerce-Clone/static/js/2.b9650df1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8e60760d4d779c14460",
-    "url": "/Skate-Ecommerce-Clone/static/js/main.d4854131.chunk.js"
+    "revision": "491aa2d7bca36f937e7a",
+    "url": "/Skate-Ecommerce-Clone/static/js/main.82971be7.chunk.js"
   },
   {
     "revision": "2987abf6428844ace7fb",
     "url": "/Skate-Ecommerce-Clone/static/js/runtime-main.7bd14fc0.js"
   },
   {
-    "revision": "727e1e06b3ed75ec4031b90541713e3a",
-    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_5_m.727e1e06.webp"
+    "revision": "e20dbde62bd6235b5f43bfca05a05bb3",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_1_d.e20dbde6.jpg"
+  },
+  {
+    "revision": "83f73c831fb86df1c4367c9232d6d3a4",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_2_d.83f73c83.webp"
+  },
+  {
+    "revision": "52afeedff931a8b419f30c52260d995c",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_3_d.52afeedf.webp"
+  },
+  {
+    "revision": "06deee18ae43121dfe7b16c3392aa341",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_4_d.06deee18.webp"
   },
   {
     "revision": "e26532f2abdf4943bc544a3d66c3d027",
