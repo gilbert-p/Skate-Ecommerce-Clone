@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42766b1a27087f4a6b61c9491279b218",
+    "revision": "e650daddc78349867fcb304a37264099",
     "url": "/Skate-Ecommerce-Clone/index.html"
   },
   {
-    "revision": "bdf8e821392f575f16a3",
-    "url": "/Skate-Ecommerce-Clone/static/css/main.d937d472.chunk.css"
+    "revision": "a8e60760d4d779c14460",
+    "url": "/Skate-Ecommerce-Clone/static/css/main.55f03e0b.chunk.css"
   },
   {
     "revision": "1bbeae1294df0c72ff61",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Skate-Ecommerce-Clone/static/js/2.33c95baf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdf8e821392f575f16a3",
-    "url": "/Skate-Ecommerce-Clone/static/js/main.fe38dfef.chunk.js"
+    "revision": "a8e60760d4d779c14460",
+    "url": "/Skate-Ecommerce-Clone/static/js/main.d4854131.chunk.js"
   },
   {
     "revision": "2987abf6428844ace7fb",
