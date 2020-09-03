@@ -13,9 +13,9 @@ function App() {
       <div className="main-content">
         <SlideShow />
         <Plugs />
-        {/* <DeckProducts /> */}
+        <DeckProducts />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

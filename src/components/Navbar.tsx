@@ -4,7 +4,7 @@ import "../styles/navbar.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="top-link-items">
+      {/* <div className="top-link-items">
         <ul>
           <li>
             LOGIN <span>/</span> REGISTER
@@ -12,7 +12,7 @@ const Navbar = () => {
           <li>GIFT CARDS</li>
           <li>SHOP FINDER</li>
         </ul>
-      </div>
+      </div> */}
       <div className="navbar-content">
         <div className="button-group">
           <a href="#" className="brand-title">
