@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Skate-Ecommerce-Clone/static/css/main.48a2485e.chunk.css",
-    "main.js": "/Skate-Ecommerce-Clone/static/js/main.b2348aae.chunk.js",
-    "main.js.map": "/Skate-Ecommerce-Clone/static/js/main.b2348aae.chunk.js.map",
+    "main.css": "/Skate-Ecommerce-Clone/static/css/main.20c8c665.chunk.css",
+    "main.js": "/Skate-Ecommerce-Clone/static/js/main.4c1cc326.chunk.js",
+    "main.js.map": "/Skate-Ecommerce-Clone/static/js/main.4c1cc326.chunk.js.map",
     "runtime-main.js": "/Skate-Ecommerce-Clone/static/js/runtime-main.7bd14fc0.js",
     "runtime-main.js.map": "/Skate-Ecommerce-Clone/static/js/runtime-main.7bd14fc0.js.map",
-    "static/js/2.344608cf.chunk.js": "/Skate-Ecommerce-Clone/static/js/2.344608cf.chunk.js",
-    "static/js/2.344608cf.chunk.js.map": "/Skate-Ecommerce-Clone/static/js/2.344608cf.chunk.js.map",
+    "static/js/2.016efce7.chunk.js": "/Skate-Ecommerce-Clone/static/js/2.016efce7.chunk.js",
+    "static/js/2.016efce7.chunk.js.map": "/Skate-Ecommerce-Clone/static/js/2.016efce7.chunk.js.map",
     "index.html": "/Skate-Ecommerce-Clone/index.html",
-    "precache-manifest.647f7091b5710da9acdc0249818262e6.js": "/Skate-Ecommerce-Clone/precache-manifest.647f7091b5710da9acdc0249818262e6.js",
+    "precache-manifest.f809d5feb830fa5e81f3efc2a2105719.js": "/Skate-Ecommerce-Clone/precache-manifest.f809d5feb830fa5e81f3efc2a2105719.js",
     "service-worker.js": "/Skate-Ecommerce-Clone/service-worker.js",
-    "static/css/main.48a2485e.chunk.css.map": "/Skate-Ecommerce-Clone/static/css/main.48a2485e.chunk.css.map",
-    "static/js/2.344608cf.chunk.js.LICENSE.txt": "/Skate-Ecommerce-Clone/static/js/2.344608cf.chunk.js.LICENSE.txt",
+    "static/css/main.20c8c665.chunk.css.map": "/Skate-Ecommerce-Clone/static/css/main.20c8c665.chunk.css.map",
+    "static/js/2.016efce7.chunk.js.LICENSE.txt": "/Skate-Ecommerce-Clone/static/js/2.016efce7.chunk.js.LICENSE.txt",
     "static/media/ext_img_hero_1_d.jpg": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_1_d.e20dbde6.jpg",
     "static/media/ext_img_hero_2_d.webp": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_2_d.83f73c83.webp",
     "static/media/ext_img_hero_3_d.webp": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_3_d.52afeedf.webp",
     "static/media/ext_img_hero_4_d.webp": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_4_d.06deee18.webp",
+    "static/media/ext_img_hero_5_m.webp": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_5_m.727e1e06.webp",
     "static/media/ext_img_plugs_accessories_1.jpg": "/Skate-Ecommerce-Clone/static/media/ext_img_plugs_accessories_1.e26532f2.jpg",
     "static/media/ext_img_plugs_clothing_1.jpg": "/Skate-Ecommerce-Clone/static/media/ext_img_plugs_clothing_1.61fc230f.jpg",
     "static/media/ext_img_plugs_decks_4.jpg": "/Skate-Ecommerce-Clone/static/media/ext_img_plugs_decks_4.76f5876b.jpg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7bd14fc0.js",
-    "static/js/2.344608cf.chunk.js",
-    "static/css/main.48a2485e.chunk.css",
-    "static/js/main.b2348aae.chunk.js"
+    "static/js/2.016efce7.chunk.js",
+    "static/css/main.20c8c665.chunk.css",
+    "static/js/main.4c1cc326.chunk.js"
   ]
 }
