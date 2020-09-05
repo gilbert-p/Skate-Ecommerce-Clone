@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee524377de9797631d814c78ea11171d",
+    "revision": "d5b2581ec5458e11d293e2d68f8373e6",
     "url": "/Skate-Ecommerce-Clone/index.html"
   },
   {
-    "revision": "5116370495c3b101c666",
-    "url": "/Skate-Ecommerce-Clone/static/css/main.57378f18.chunk.css"
+    "revision": "99ad4e5df74551e0ec45",
+    "url": "/Skate-Ecommerce-Clone/static/css/main.f8d19489.chunk.css"
   },
   {
-    "revision": "14e40dffc4505fcaaba0",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.99a1711c.chunk.js"
+    "revision": "99d24044a3146c5c7401",
+    "url": "/Skate-Ecommerce-Clone/static/js/2.8fd75e9e.chunk.js"
   },
   {
     "revision": "367738633d589c82ec3b82bfae70c77f",
-    "url": "/Skate-Ecommerce-Clone/static/js/2.99a1711c.chunk.js.LICENSE.txt"
+    "url": "/Skate-Ecommerce-Clone/static/js/2.8fd75e9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5116370495c3b101c666",
-    "url": "/Skate-Ecommerce-Clone/static/js/main.16c843a5.chunk.js"
+    "revision": "99ad4e5df74551e0ec45",
+    "url": "/Skate-Ecommerce-Clone/static/js/main.263cb338.chunk.js"
   },
   {
     "revision": "2987abf6428844ace7fb",
@@ -28,20 +28,84 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_1_d.e20dbde6.jpg"
   },
   {
+    "revision": "d33d3e93242508ce47fa85746fc6a53a",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_1_m.d33d3e93.webp"
+  },
+  {
     "revision": "83f73c831fb86df1c4367c9232d6d3a4",
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_2_d.83f73c83.webp"
+  },
+  {
+    "revision": "0c64a2f627b87e07522f48a797663291",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_2_m.0c64a2f6.webp"
   },
   {
     "revision": "52afeedff931a8b419f30c52260d995c",
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_3_d.52afeedf.webp"
   },
   {
+    "revision": "d389b6788f6408596ce74e8e5f185522",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_3_m.d389b678.webp"
+  },
+  {
     "revision": "06deee18ae43121dfe7b16c3392aa341",
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_4_d.06deee18.webp"
   },
   {
+    "revision": "938e5a15216506a6211fb442c48cc6f5",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_4_m.938e5a15.webp"
+  },
+  {
     "revision": "727e1e06b3ed75ec4031b90541713e3a",
     "url": "/Skate-Ecommerce-Clone/static/media/ext_img_hero_5_m.727e1e06.webp"
+  },
+  {
+    "revision": "e2e853d900f64e23fe5b3eb48960791e",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_10_1.e2e853d9.webp"
+  },
+  {
+    "revision": "74145494eb7f159d87ab30867efcad8f",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_11_3.74145494.webp"
+  },
+  {
+    "revision": "5edb6b32ce6c7a17db0e9d02a6c8e9b6",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_12_1.5edb6b32.webp"
+  },
+  {
+    "revision": "f84142ca034e385c00073325573c1882",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_1_1.f84142ca.webp"
+  },
+  {
+    "revision": "c50af91eb61585d5eac1ed680fcfcb0f",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_2_3.c50af91e.webp"
+  },
+  {
+    "revision": "aa2bbc82d92c2ced7aa0f460c2229037",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_3_5.aa2bbc82.webp"
+  },
+  {
+    "revision": "4179ac5db54e359cc080a99dc51ddac2",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_4_4.4179ac5d.webp"
+  },
+  {
+    "revision": "19c5966a557a120aa533fc50bf3d140d",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_5_1.19c5966a.webp"
+  },
+  {
+    "revision": "06417ee22d56e046c48844b578f5cd3e",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_6_2.06417ee2.webp"
+  },
+  {
+    "revision": "7cce265525b3d74218f6c9d0b5af81f6",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_7_1.7cce2655.webp"
+  },
+  {
+    "revision": "692ad29e16db02451e5d30e1dba05821",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_8_2.692ad29e.webp"
+  },
+  {
+    "revision": "afe55837b4c3b08386b0cc156623cba0",
+    "url": "/Skate-Ecommerce-Clone/static/media/ext_img_menu_9_1.afe55837.webp"
   },
   {
     "revision": "e26532f2abdf4943bc544a3d66c3d027",
