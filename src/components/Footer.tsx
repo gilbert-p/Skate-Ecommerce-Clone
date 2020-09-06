@@ -4,120 +4,6 @@ import "../styles/footer.scss";
 const Footer = () => {
   return (
     <div className="main-footer-container">
-      <div className="cloud-border-container">
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-      </div>
-      <div className="cloud-border-container bottom">
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-        <div className="cloud-circle"></div>
-      </div>
       <div className="upper-footer-container">
         <div className="upper-footer-section">
           <div className="mailing-list-signup-container">
@@ -149,6 +35,19 @@ const Footer = () => {
               <li className="social-item"></li>
               <li className="social-item"></li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div className="main-footer">
+        <div className="footer-content">
+          <div className="text-nav-section">
+            <span className="text">SHOP COLLECTIONS</span>
+          </div>
+          <div className="lists-container">
+            <div className="text-nav-list"></div>
+            <div className="text-nav-list"></div>
+            <div className="text-nav-list"></div>
+            <div className="text-nav-list"></div>
           </div>
         </div>
       </div>
