@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Skate-Ecommerce-Clone/precache-manifest.1d80ab1ffdb3cd8ada0004ba640f4c7b.js"
+  "/Skate-Ecommerce-Clone/precache-manifest.0151788f2832253fbdd96f050efeebfb.js"
 );
 
 self.addEventListener('message', (event) => {
