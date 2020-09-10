@@ -32,8 +32,11 @@ const Navbar = () => {
         display: "table",
         duration,
       });
+      gsap.to(".main-content", {
+        height: 0,
+      });
       gsap.to(".resize-container", {
-        display: "none",
+        width: 0,
         duration: 0,
       });
       gsap.to(".plugs-container", {
@@ -48,14 +51,21 @@ const Navbar = () => {
         display: "none",
         duration: 0,
       });
+      gsap.to(".upper-footer-container", {
+        display: "none",
+        duration: 0,
+      });
     } else {
       gsap.to(".mobile-nav-container", {
         opacity: 0,
         display: "none",
         duration,
       });
+      gsap.to(".main-content", {
+        height: "auto",
+      });
       gsap.to(".resize-container", {
-        display: "block",
+        width: "100%",
         duration: 0,
       });
       gsap.to(".plugs-container", {
@@ -67,6 +77,10 @@ const Navbar = () => {
         duration: 0,
       });
       gsap.to(".products-grid-container", {
+        display: "grid",
+        duration: 0,
+      });
+      gsap.to(".upper-footer-container", {
         display: "grid",
         duration: 0,
       });
