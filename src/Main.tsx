@@ -15,12 +15,12 @@ function App() {
     <SiteProvider value={mobileMenuOpen}>
       <div className="site-container">
         <Navbar />
-        <div className="main-content">
+        {/* <div className="main-content">
           <SlideShow />
           <Plugs />
           <DeckProducts />
-        </div>
-        <Footer />
+        </div> */}
+        {/* <Footer /> */}
       </div>
     </SiteProvider>
   );

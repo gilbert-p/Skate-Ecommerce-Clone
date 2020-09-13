@@ -2,39 +2,61 @@
 
 .plugs-container {
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 240px));
-  column-gap: 24px;
+  display: block;
   width: 100%;
   height: auto;
-  min-height: 572px;
+  // margin-top: 2em;
   margin-bottom: 40px;
 
-  .plug-item {
+  .two-column {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
 
-    // background-color: purple;
-    text-align: center;
+  .products-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
 
-    .plug-img-container {
+    .plug-item {
       position: relative;
-      display: block;
-      width: 100%;
-      height: 0;
-      padding-bottom: 100%;
-      background-color: white;
 
-      .fit-img {
-        @include variables.fit-image;
+      // background-color: purple;
+      text-align: center;
+
+      &:nth-child(2) {
+        padding-left: 40px;
+      }
+
+      .plug-img-container {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background-color: white;
+
+        .fit-img {
+          @include variables.fit-image;
+        }
+      }
+
+      > span {
+        position: relative;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        color: black;
+        padding-top: 11px;
       }
     }
 
-    > span {
-      position: relative;
-      display: inline-block;
-      color: black;
-      padding-top: 4px;
-      font-weight: 500;
+    &:nth-child(2) {
+      padding-left: 40px;
     }
   }
 }
@@ -71,13 +93,18 @@
 }
 
 @media screen and (max-width: 767px) {
-  .plugs-container {
-    grid-template-columns: repeat(2, minmax(0px, 338px));
+  .two-column {
+    flex-wrap: wrap;
 
-    // grid-template-rows: repeat(4, minmax(0px, 600px));
-  }
-
-  .plug-item > span {
-    font-size: 0.9em;
+    .products-row {
+      .plug-item {
+        &:nth-child(2) {
+          padding-left: 24px;
+        }
+      }
+      &:nth-child(2) {
+        padding-left: 0;
+      }
+    }
   }
 }

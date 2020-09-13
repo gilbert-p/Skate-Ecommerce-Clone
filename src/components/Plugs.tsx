@@ -13,77 +13,98 @@ const Plugs = () => {
   return (
     <>
       <div className="plugs-container">
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img className="fit-img" src={decks_img} alt="girl skateboards" />
+        <div className="two-column">
+          <div className="products-row">
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={decks_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>DECKS</span>
+            </div>
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={clothing_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>CLOTHING</span>
+            </div>
           </div>
-          <span>DECKS</span>
+          <div className="products-row">
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={reflective_board_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>90-3MC REFLECTIVE</span>
+            </div>
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={pop_secret_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>POP SECRET</span>
+            </div>
+          </div>
         </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={clothing_img}
-              alt="girl skateboards"
-            />
+
+        <div className="two-column">
+          <div className="products-row">
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={skull_of_fame_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>SKULL OF FAME</span>
+            </div>
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={modernica_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>MODERNICA</span>
+            </div>
           </div>
-          <span>CLOTHING</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={reflective_board_img}
-              alt="girl skateboards"
-            />
+          <div className="products-row">
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={hats_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>HATS</span>
+            </div>
+            <div className="plug-item">
+              <div className="plug-img-container">
+                <img
+                  className="fit-img"
+                  src={accessories_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>ACCESSORIES</span>
+            </div>
           </div>
-          <span>90-3MC REFLECTIVE</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={pop_secret_img}
-              alt="girl skateboards"
-            />
-          </div>
-          <span>POP SECRET</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={skull_of_fame_img}
-              alt="girl skateboards"
-            />
-          </div>
-          <span>SKULL OF FAME</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={modernica_img}
-              alt="girl skateboards"
-            />
-          </div>
-          <span>MODERNICA</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img className="fit-img" src={hats_img} alt="girl skateboards" />
-          </div>
-          <span>HATS</span>
-        </div>
-        <div className="plug-item">
-          <div className="plug-img-container">
-            <img
-              className="fit-img"
-              src={accessories_img}
-              alt="girl skateboards"
-            />
-          </div>
-          <span>ACCESSORIES</span>
         </div>
       </div>
       <div className="cta-more-container">

@@ -20,4 +20,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .site-container {
+    .main-content {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
 }

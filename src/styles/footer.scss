@@ -174,7 +174,7 @@ $text-nav-container-height: 221px;
             .lists-container {
               position: relative;
               width: 100%;
-              height: inherit;
+              min-height: 162px;
               // background-color: yellow;
 
               &:nth-child(2) {
@@ -305,16 +305,12 @@ $text-nav-container-height: 221px;
     height: 518px;
 
     #shop-collections {
-      flex-wrap: wrap;
+      // flex-wrap: wrap;
       width: 100%;
       height: auto;
 
       .two-column {
         min-height: 132px;
-
-        &:nth-child(3) {
-          margin-top: 1em;
-        }
       }
     }
     #pages-info {

@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import SiteContext from "../context/context";
 import "../styles/navbar.scss";
+import "../styles/shop-container.scss";
 import deck_img from "../assets/mobile_img/ext_img_menu_1_1.webp";
 import trucks_img from "../assets/mobile_img/ext_img_menu_2_3.webp";
 import clothing_img from "../assets/mobile_img/ext_img_menu_3_5.webp";
@@ -22,6 +23,7 @@ gsap.registerPlugin(ScrollToPlugin);
 const Navbar = () => {
   const menuState = useContext(SiteContext);
   const [showMenu, setShowMenu] = useState(menuState);
+  const [showDesktopMenu, setDesktopMenu] = useState(false);
   const [duration, setDuration] = useState(0.3);
 
   const mobileMenu = () => {
@@ -89,44 +91,200 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
+  const desktopMenu = (event: MouseEvent) => {
+    event.stopPropagation();
+    let isOpen = showDesktopMenu;
+
+    if (!isOpen) {
+      gsap.to(".desktop-nav-container", {
+        height: "370px",
+        opacity: 1,
+        duration,
+      });
+      gsap.to(".hover-triangle", { top: "75%", duration });
+    } else {
+      gsap.to(".desktop-nav-container", {
+        height: "0px",
+        opacity: 0,
+        duration,
+      });
+      gsap.to(".hover-triangle", { top: "100%", duration });
+    }
+
+    setDesktopMenu(!showDesktopMenu);
+  };
+
   return (
     <>
       <div className="navbar">
-        {/* <div className="top-link-items">
-        <ul>
-          <li>
-            LOGIN <span>/</span> REGISTER
-          </li>
-          <li>GIFT CARDS</li>
-          <li>SHOP FINDER</li>
-        </ul>
-      </div> */}
         <div className="navbar-content">
+          <a href="#" className="brand-title">
+            <span>UrbanBoards</span>
+          </a>
           <div className="button-group">
-            <a href="#" className="brand-title">
-              <span>UrbanBoards</span>
-            </a>
             <div className="main-menu-container">
               <div className="main-menu-button active">
                 <span>SHOP</span>
-                <i id="shop-menu" className="gg-menu-left-alt"></i>
               </div>
               <div className="main-menu-button">
                 <span>'TAP</span>
               </div>
             </div>
           </div>
-          <div className="icons-container"></div>
+          {/* <div className="button-group">
+
+            <div className="main-menu-container">
+              <div className="main-menu-button active">
+                <span>SHOP</span>
+                <i id="shop-menu" className="gg-menu-left-alt"></i>
+                <span className="hover-triangle"></span>
+              </div>
+              <div className="main-menu-button">
+                <span>'TAP</span>
+              </div>
+            </div>
+          </div>
           <div className="nav-button" onClick={mobileMenu}>
             <div className="hamburger-nav">
               <i id="shop-menu" className="gg-menu-left-alt"></i>
             </div>
+          </div> */}
+        </div>
+      </div>
+      <div className="desktop-nav-container">
+        <div className="squares-container">
+          <div className="menu-row">
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={deck_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Decks</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={trucks_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Trucks</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={clothing_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Clothing</span>
+            </div>
+
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={hats_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Hats</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={wheels_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Wheels</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={socks_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Socks</span>
+            </div>
+          </div>
+
+          <div className="menu-row">
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={accessories_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Accessories</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={hardware_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Hardware</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={skull_of_fame_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Skull of Fame</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={bruised_heels_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Bruised Heels</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={modernica_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Modernica</span>
+            </div>
+            <div className="product-item-container">
+              <div className="product-item">
+                <img
+                  className="fit-img"
+                  src={completes_img}
+                  alt="girl skateboards"
+                />
+              </div>
+              <span>Completes</span>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="mobile-nav-container">
         <div className="menu-squares-container">
-          <div className="mobile-product-row">
+          <div className="mobile-menu-row">
             <div className="mobile-product-item-container">
               <div className="mobile-product-item">
                 <img
@@ -158,7 +316,7 @@ const Navbar = () => {
               <span>Clothing</span>
             </div>
           </div>
-          <div className="mobile-product-row">
+          <div className="mobile-menu-row">
             <div className="mobile-product-item-container">
               <div className="mobile-product-item">
                 <img
@@ -190,7 +348,7 @@ const Navbar = () => {
               <span>Socks</span>
             </div>
           </div>
-          <div className="mobile-product-row">
+          <div className="mobile-menu-row">
             <div className="mobile-product-item-container">
               <div className="mobile-product-item">
                 <img
@@ -222,7 +380,7 @@ const Navbar = () => {
               <span>Skull of Fame</span>
             </div>
           </div>
-          <div className="mobile-product-row">
+          <div className="mobile-menu-row">
             <div className="mobile-product-item-container">
               <div className="mobile-product-item">
                 <img

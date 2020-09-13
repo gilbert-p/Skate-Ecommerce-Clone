@@ -1,3 +1,4 @@
+@use './styles/variables';
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;800&display=swap");
 
 * {
@@ -21,4 +22,21 @@ a {
 
 a:link {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-top: 0.3em;
+
+  li {
+    display: inline;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-left: 1em;
+
+    &:hover {
+      cursor: pointer;
+      color: variables.$hover-link-color;
+    }
+  }
 }

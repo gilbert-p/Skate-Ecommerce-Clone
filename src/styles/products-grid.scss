@@ -80,6 +80,10 @@
           }
         }
       }
+
+      &:nth-child(2) {
+        padding-left: 28px;
+      }
     }
   }
 }
@@ -88,6 +92,12 @@
   .products-grid-container {
     .two-column {
       flex-direction: column;
+
+      .products-row {
+        &:nth-child(2) {
+          padding-left: 0;
+        }
+      }
     }
   }
 }

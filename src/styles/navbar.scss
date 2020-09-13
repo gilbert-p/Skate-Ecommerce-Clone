@@ -20,115 +20,76 @@ ul {
 .navbar {
   position: fixed;
   width: 100%;
-  max-width: 1120px;
-  height: 110px;
-  padding-left: 20px;
-  padding-right: 20px;
-  // background-color: slateblue;
+  max-width: 1080px;
+  height: 50px;
   left: 50%;
   transform: translateX(-50%);
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: slateblue;
   z-index: 9999;
 
-  .top-link-items {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 40px;
-    background-color: white;
-  }
-
   .navbar-content {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    height: calc(63%);
-    background-color: rgba(255, 255, 255, 0.95);
+    height: inherit;
+    display: flex;
+    background-color: coral;
 
-    .hamburger-nav {
-      display: none;
+    .brand-title {
+      position: relative;
+      width: auto;
+      padding-right: 24px;
+      background-color: cornflowerblue;
+
+      span {
+        font-family: "Baloo Chettan 2", cursive;
+        font-size: 2em;
+        font-weight: 800;
+        color: variables.$primary-color;
+
+        &:hover {
+          color: variables.$hover-link-color;
+        }
+      }
     }
 
     .button-group {
-      position: relative;
-      display: flex;
-      width: 530px;
-      height: 100%;
-      // background-color: rgb(26, 26, 26);
-
-      .brand-title {
-        position: relative;
-        display: grid;
-        width: 230px;
-        height: 55px;
-        // background-color: magenta;
-        place-content: center;
-        padding-top: 0.7em;
-
-        span {
-          font-family: "Baloo Chettan 2", cursive;
-          font-size: 2em;
-          font-weight: 800;
-          color: variables.$primary-color;
-
-          &:hover {
-            color: variables.$hover-link-color;
-          }
-        }
-      }
+      width: 272px;
+      background-color: rgb(3, 126, 207);
 
       .main-menu-container {
         position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        width: 300px;
-        height: calc(85%);
-        // background-color: red;
-        place-content: center;
-        padding-top: 1.2em;
-        padding-left: 1em;
+        display: flex;
+        width: 100%;
+        height: 30px;
+        background-color: lightgreen;
+        top: 50%;
+        transform: translateY(-50%);
 
         .main-menu-button {
-          position: relative;
-          width: 130px;
+          width: 132px;
           height: inherit;
-          background-color: #f2f2f2;
           text-align: center;
-          padding-top: 0.2rem;
-          color: black;
+          background-color: #f2f2f2;
 
-          #shop-menu {
-            padding-left: 1em;
+          > span {
+            position: relative;
+            display: block;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 11px;
+            font-weight: bold;
           }
 
-          span {
-            font-weight: 700;
-            font-size: 0.9rem;
-          }
-
-          &:nth-child(2):hover {
-            cursor: pointer;
-            background-color: black;
-            color: white;
+          &:nth-child(1) {
+            margin-right: 8px;
           }
         }
-
         .active {
           background-color: black;
           color: white;
         }
       }
-    }
-
-    .icons-container {
-      position: relative;
-      display: flex;
-      width: 200px;
-      height: calc(63%);
-      background-color: orange;
-      margin-top: 1.3em;
     }
   }
 }
@@ -227,66 +188,66 @@ ul {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .navbar {
-    height: 102px;
-  }
-}
+// @media screen and (max-width: 1024px) {
+//   .navbar {
+//     height: 102px;
+//   }
+// }
 
-@media screen and (max-width: 768px) {
-  .navbar {
-    height: 102px;
+// @media screen and (max-width: 768px) {
+//   .navbar {
+//     height: 102px;
 
-    .navbar-content {
-      height: calc(44%);
-      padding-bottom: 55px;
+//     .navbar-content {
+//       height: calc(44%);
+//       padding-bottom: 55px;
 
-      .button-group {
-        .brand-title {
-          left: -1em;
-        }
-        .main-menu-container {
-          display: none;
-        }
-      }
+//       .button-group {
+//         .brand-title {
+//           left: -1em;
+//         }
+//         .main-menu-container {
+//           display: none;
+//         }
+//       }
 
-      .icons-container {
-        margin-top: 1.1em;
-      }
+//       .icons-container {
+//         margin-top: 1.1em;
+//       }
 
-      .nav-button {
-        cursor: pointer;
-        .hamburger-nav {
-          display: inline-block;
-          padding: 5px;
+//       .nav-button {
+//         cursor: pointer;
+//         .hamburger-nav {
+//           display: inline-block;
+//           padding: 5px;
 
-          #shop-menu {
-            color: black;
-            margin-top: 1em;
-          }
+//           #shop-menu {
+//             color: black;
+//             margin-top: 1em;
+//           }
 
-          .gg-menu-left-alt {
-            position: relative;
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            transform: scale(var(--ggs, 1));
-            color: white;
-          }
+//           .gg-menu-left-alt {
+//             position: relative;
+//             display: inline-block;
+//             width: 16px;
+//             height: 16px;
+//             transform: scale(var(--ggs, 1));
+//             color: white;
+//           }
 
-          .gg-menu-left-alt::before {
-            width: 22px;
-            height: 3px;
-            box-shadow: 0 15px 0;
-            top: 1px;
-          }
-          .gg-menu-left-alt::after {
-            height: 3px;
-            width: 20px;
-            top: 9px;
-          }
-        }
-      }
-    }
-  }
-}
+//           .gg-menu-left-alt::before {
+//             width: 22px;
+//             height: 3px;
+//             box-shadow: 0 15px 0;
+//             top: 1px;
+//           }
+//           .gg-menu-left-alt::after {
+//             height: 3px;
+//             width: 20px;
+//             top: 9px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
