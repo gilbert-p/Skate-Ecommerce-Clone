@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import SiteContext from "../context/context";
+import ShowContentContext from "../context/ShowContentContext";
 import "../styles/navbar.scss";
 import "../styles/shop-container.scss";
 import deck_img from "../assets/mobile_img/ext_img_menu_1_1.webp";
@@ -15,6 +16,8 @@ import bruised_heels_img from "../assets/mobile_img/ext_img_menu_10_1.webp";
 import modernica_img from "../assets/mobile_img/ext_img_menu_11_3.webp";
 import completes_img from "../assets/mobile_img/ext_img_menu_12_1.webp";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
@@ -25,6 +28,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(menuState);
   const [showDesktopMenu, setDesktopMenu] = useState(false);
   const [duration, setDuration] = useState(0.3);
+
+  const { toggleStuff } = useContext(ShowContentContext);
 
   const mobileMenu = () => {
     let isOpen = showMenu;
@@ -91,39 +96,43 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
-  const desktopMenu = (event: MouseEvent) => {
-    event.stopPropagation();
+  const desktopMenu = () => {
+    // event.stopPropagation();
     let isOpen = showDesktopMenu;
 
     if (!isOpen) {
       gsap.to(".desktop-nav-container", {
         height: "370px",
         opacity: 1,
-        duration,
+        "z-index": 9999,
+        duration: 0,
       });
       gsap.to(".hover-triangle", { top: "75%", duration });
     } else {
       gsap.to(".desktop-nav-container", {
         height: "0px",
         opacity: 0,
-        duration,
+        "z-index": 0,
+        duration: 0,
       });
       gsap.to(".hover-triangle", { top: "100%", duration });
     }
 
     setDesktopMenu(!showDesktopMenu);
+
+    // return;
   };
 
   return (
     <>
       <div className="navbar">
         <div className="navbar-content">
-          <a href="#" className="brand-title">
+          <Link className="brand-title" to={"/"}>
             <span>UrbanBoards</span>
-          </a>
+          </Link>
           <div className="button-group">
             <div className="main-menu-container">
-              <div className="main-menu-button active">
+              <div className="main-menu-button active" onClick={desktopMenu}>
                 <span>SHOP</span>
               </div>
               <div className="main-menu-button">
@@ -143,12 +152,12 @@ const Navbar = () => {
                 <span>'TAP</span>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="nav-button" onClick={mobileMenu}>
             <div className="hamburger-nav">
-              <i id="shop-menu" className="gg-menu-left-alt"></i>
+              {/* <i id="shop-menu" className="gg-menu-left-alt"></i> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="desktop-nav-container">

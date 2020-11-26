@@ -6,8 +6,9 @@
   width: 100%;
   height: auto;
   margin-top: 2em;
+  z-index: 9999;
 
-  //   background-color: green;
+  // background-color: green;
 
   .two-column {
     position: relative;
@@ -24,13 +25,18 @@
 
       .product-item {
         position: relative;
-        min-width: 20px;
+        min-height: 20px;
         // height: auto;
         margin-bottom: 24px;
         max-height: 435px;
 
         &:nth-child(n + 2) {
           padding-left: 28px;
+        }
+
+        &:hover {
+          background-color: skyblue;
+          cursor: pointer;
         }
 
         // background-color: salmon;

@@ -26,20 +26,30 @@ ul {
   transform: translateX(-50%);
   padding-right: 20px;
   padding-left: 20px;
-  background-color: slateblue;
-  z-index: 9999;
+  z-index: 9998;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    left: 0;
+    top: 0;
+    background-color: white;
+    opacity: 0.9;
+  }
 
   .navbar-content {
     width: 100%;
     height: inherit;
     display: flex;
-    background-color: coral;
+    // background-color: coral;
 
     .brand-title {
       position: relative;
       width: auto;
       padding-right: 24px;
-      background-color: cornflowerblue;
+      // background-color: cornflowerblue;
 
       span {
         font-family: "Baloo Chettan 2", cursive;
@@ -55,14 +65,14 @@ ul {
 
     .button-group {
       width: 272px;
-      background-color: rgb(3, 126, 207);
+      // background-color: rgb(3, 126, 207);
 
       .main-menu-container {
         position: relative;
         display: flex;
         width: 100%;
         height: 30px;
-        background-color: lightgreen;
+        // background-color: lightgreen;
         top: 50%;
         transform: translateY(-50%);
 
@@ -84,10 +94,20 @@ ul {
           &:nth-child(1) {
             margin-right: 8px;
           }
+
+          &:nth-child(2):hover {
+            cursor: pointer;
+            background-color: black;
+            color: white;
+          }
         }
         .active {
           background-color: black;
           color: white;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
